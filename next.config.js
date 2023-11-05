@@ -6,6 +6,7 @@ const nextConfig = {
       transform: "antd/lib/{{ kebabCase member }}",
     },
   },
+  transpilePackages: ["ahooks"],
 };
 
 module.exports = nextConfig;
