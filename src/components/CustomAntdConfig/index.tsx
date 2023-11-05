@@ -32,7 +32,7 @@ const CustomAntdConfig: React.FC<ICustomAntdConfigProps> = (props) => {
     >
       {children}
       {messageHolder}
-      <Button>Hello</Button>
+      <Button type="primary">Hello</Button>
     </ConfigProvider>
   );
 };
